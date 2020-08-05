@@ -1,8 +1,6 @@
 import React from 'react';
-import Landing from './pages/Landing'
+import Routes from './routes';
 
 export default () => {
-  return (
-    <Landing />
-  );
+  return <Routes />
 };
