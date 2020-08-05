@@ -7,6 +7,7 @@ import landingImg from '../../assets/images/landing.svg'
 import studyIcon from '../../assets/images/icons/study.svg'
 import gitClassesIcon from '../../assets/images/icons/give-classes.svg'
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg'
+import { Link } from 'react-router-dom';
 
 
 export default () => {
@@ -21,14 +22,14 @@ export default () => {
         <img src={landingImg} alt="Plataforma de estudos" className="hero-image" />
 
         <div className="buttons-container">
-          <a href="#" className="study">
+          <Link to="/study" className="study">
             <img src={studyIcon} alt="Estudar" />
             Estudar
-          </a>
-          <a href="#" className="give-classes">
+          </Link>
+          <Link to="give-classes" className="give-classes">
             <img src={gitClassesIcon} alt="Dar aulas" />
             Dar Aulas
-          </a>
+          </Link>
         </div>
 
         <span className="total-connections">
