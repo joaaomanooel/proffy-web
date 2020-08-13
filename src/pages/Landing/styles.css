@@ -31,12 +31,11 @@
   margin: 3.2rem 0;
 }
 
-
 .buttons-container a {
   width: 30rem;
   height: 10.4rem;
   border-radius: 0.8rem;
-  font: 700 2.0rem Archivo;
+  font: 700 2rem Archivo;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -69,7 +68,6 @@
   width: 4rem;
   margin-right: 1.6rem;
 }
-
 
 .hero-image {
   width: 100%;
