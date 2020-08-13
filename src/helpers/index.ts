@@ -32,3 +32,25 @@ export const getAleatoryAvatar = () => {
   const avatar = AVATAR_NAME[Math.floor(Math.random() * AVATAR_NAME.length)]
   return `https://api.adorable.io/avatars/face/${avatar}`
 }
+
+export const subjects = [
+  {value: 'Artes', label: 'Artes'},
+  {value: 'Biologia', label: 'Biologia'},
+  {value: 'Ciências', label: 'Ciências'},
+  {value: 'Educação física', label: 'Educação física'},
+  {value: 'Física', label: 'Física'},
+  {value: 'Geografia', label: 'Geografia'},
+  {value: 'Matemática', label: 'Matemática'},
+  {value: 'Português', label: 'Português'},
+  {value: 'Química', label: 'Química'},
+];
+
+export const weekDays = [
+  {value: 0, label: 'Domingo'},
+  {value: 1, label: 'Segunda-feira'},
+  {value: 2, label: 'Terça-feira'},
+  {value: 3, label: 'Quarta-feira'},
+  {value: 4, label: 'Quinta-feira'},
+  {value: 5, label: 'Sexta-feira'},
+  {value: 6, label: 'Sábado'},
+]
